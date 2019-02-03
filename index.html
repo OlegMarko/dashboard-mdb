@@ -92,7 +92,7 @@
 
   <main class="pt-5 max-lg-5">
     <div class="container-fluid mt-5">
-      <div class="card mb-4 wow fadeIn">
+      <div class="card mb-4 wow zoomIn">
         <div class="card-body d-sm-flex justify-content-between">
           <h4 class="mb-2 mb-sm-0 pt-1">
             <a href="#">Home Page</a>
@@ -108,8 +108,77 @@
           </form>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-9 mb-4">
+          <div class="card wow slideInLeft">
+            <div class="card-body">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card wow slideInRight mb-2">
+            <div class="card-body">
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+
+          <div class="card mb-4 wow slideInRight">
+            <div class="card-body">
+              <div class="list-group list-group-flash">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Sales
+                  <span class="badge badge-danger badge-pill pull-right">
+                    23% <i class="fa fa-arrow-up nl-1"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="list-group list-group-flash">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Sales
+                  <span class="badge badge-danger badge-pill pull-right">
+                    3% <i class="fa fa-arrow-up nl-1"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="list-group list-group-flash">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Sales
+                  <span class="badge badge-success badge-pill pull-right">
+                    7% <i class="fa fa-arrow-down nl-1"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="list-group list-group-flash">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Sales
+                  <span class="badge badge-warning badge-pill pull-right">
+                    0% <i class="fa fa-arrow-up nl-1"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="list-group list-group-flash">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Sales
+                  <span class="badge badge-success badge-pill pull-right">
+                    17% <i class="fa fa-arrow-down nl-1"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
+
+  <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn fixed-bottom">
+    <div class="pt-4">
+      <a href="#" class="btn btn-outline-white">Bootstrap <i class="fa fa-download ml-2"></i></a>
+    </div>
+  </footer>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -120,6 +189,8 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.js"></script>
+
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
